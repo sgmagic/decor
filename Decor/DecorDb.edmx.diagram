@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31510c31078242cc96f494ed29133e16" Name="Diagram1">
+        <EntityTypeShape EntityType="DecorDBModel.Category" Width="1.5" PointX="2.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DecorDBModel.Product" Width="1.5" PointX="7.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DecorDBModel.ProductType" Width="1.5" PointX="5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DecorDBModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DecorDBModel.User" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DecorDBModel.UserRole" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="DecorDBModel.FK_ProductTypes_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="DecorDBModel.FK_Products_ProductTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="DecorDBModel.FK_UserRoles_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="DecorDBModel.FK_UserRoles_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

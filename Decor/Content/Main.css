@@ -1,0 +1,16 @@
+﻿body {
+    
+}
+
+/*User Controles*/
+#DateRangeSelector {
+    width:50%;
+    height:50%;
+    background-color:aquamarine ;
+}
+
+#selectDate{
+    width:400px;
+    height:300px;
+    border:dashed thick;
+    }
